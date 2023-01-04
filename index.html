@@ -6,7 +6,10 @@
     <meta name="description" content="réduisez vos dépenses d'énergie, devis à 0€">
     <meta name="robots" content="index, follow">
     <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="sass/main.css">
     <title>Calorifugeage-France</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/03e4bd3b07.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
@@ -15,41 +18,101 @@
         </p>
         <nav>
             <ul>
-              <a href="#"> <li>Accueil</li>  </a>
-              <a href="#"> <li>Le calorifugeage</li> </a>
-              <a href="#"> <li>Les subventions</li> </a>
-              <a href="#"> <li>Blog</li> </a>
-              <a href="#"> <li>Devis</li> </a>
-              <a href="#"> <li>Contact</li> </a>
+              <a href="#"> <i class="fa-solid fa-house fa-xs"> </i> <li>Accueil</li>  </a>
+              <a href="#"> <i class="fa-regular fa-lightbulb fa-xs"> </i> <li> Le <strong>calorifugeage</strong></li> </a>
+              <a href="#"> <i class="fa-solid fa-piggy-bank fa-xs"> </i> <li>Les subventions</li> </a>
+              <a href="#"> <i class="fa-solid fa-book fa-xs"> </i> <li>Blog</li> </a>
+              <a href="#" class="contact-menu-item"> <i class="fa-regular fa-envelope fa-xs"> </i> <li>Contact</li> </a>
             </ul>
         </nav>
     </header>
     <section>
-        <h1>Demandez votre subvention calorifugeage</h1>
-        <a href="">Réponse sous 24 heures</a> 
-        <a href="">Devis à 0€</a>
-        <div>
-            <a href="#">Contactez nous</a>
+        <div class="logo-H1-container">
+            <img class="logo-H1-container__logo logo-H1-container__cofraclogo" src="logos/cofrac-logo.jpg" alt="Partenaire Cofrac" title="Cofrac">
+            <h1 class="logo-H1-container__h1">Demandez votre <strong>subvention calorifugeage</strong> !</h1>
+            <img class="logo-H1-container__logo logo-H1-container__rgelogo" src="logos/logo_qualibat-RGE.webp" alt="Partenaire RGE-Qualibat" title="RGE-Qualibat">
         </div>
+        <div class="btn-container">
+            <a href="" class="contact-btn contact-btn--1">Réponse sous 24 heures</a> 
+            <a href="" class="contact-btn contact-btn--2">Devis à 0€</a>
+            <a href="#" class="contact-btn contact-btn--3">Contactez nous</a>
+        </div>    
         <img src="" alt="">  
         <!-- Gallery yet to be added -->
     </section>
-    <main>
-        <h2>Le calorifugeage</h2>
-        <div>
-            <article>
-                <h3>Le calorifugeage, c'est quoi ?</h3>
-                <p></p>
+    <main class="main">
+        <h2 class="main__h2">Le calorifugeage</h2>
+        <div main__div>
+            <article class="article">
+                <h3 class="article__title">Le calorifugeage, c'est quoi ?</h3>
+                <p class="article__p">Le calorifugeage est une technique utilisée pour isoler thermiquement une canalisation, un tuyau ou un équipement de chauffage, de refroidissement ou de climatisation. <br> 
+                    Le but du calorifugeage est de protéger les canalisations contre la déperdition de chaleur et de maintenir une température constante à l'intérieur de celles-ci, afin de réduire les coûts de chauffage et de climatisation et de rendre l'installation plus efficace énergétiquement. <br>
+                    Le calorifugeage consiste à envelopper les tuyaux ou les équipements de chauffage ou de climatisation dans une couche d'isolant thermique, qui peut être en laine de verre, en laine de roche, en mousse de polyuréthane ou en tout autre matériau isolant. <br> L'isolant est généralement fixé en place à l'aide de ruban adhésif ou de gaine de calorifugeage.
+                    Le calorifugeage est souvent utilisé dans les maisons, les immeubles, les usines et les centres commerciaux pour améliorer l'efficacité énergétique des installations de chauffage et de climatisation. C'est une technique simple qui peut entraîner de significatives économies d'énergie.</p>
             </article>
-            <article>
-                <h3>Quelles sont les subventions ?</h3>
-                <p></p>
+            <article class="article">
+                <h3 class="article__title">Quelles sont les subventions ?</h3>
+                <p class="article__p">Il existe plusieurs subventions disponibles pour les travaux de calorifugeage. Elles peuvent <em>financer intégralement</em> votre projet. <br> 
+                    Ces subventions sont généralement proposées par les gouvernements et les organismes publics, et peuvent être destinées aux particuliers, aux entreprises ou aux collectivités locales.</p>
             </article>
-            <article>
-                <h3>Demander un devis ?</h3>
-                <p></p>
+            <article class="article">
+                <h3 class="article__title">Quelles économies sur les factures d'énergie ?</h3>
+                <p class="article__p">Le calorifugeage peut vous permettre de réaliser de significatives économies d'énergie. <br>
+                    Selon l'importance de la déperdition de chaleur de votre installation et la qualité de l'isolant utilisé, vous pouvez espérer une économie de l'ordre de 10 à 25 % sur vos factures.
+                    Il est difficile de donner un chiffre précis sur les économies réalisables grâce au calorifugeage, car cela dépend de nombreux facteurs tels que la qualité de l'isolant utilisé, la taille des tuyaux et canalisations, la température des fluides transportés, le degré de pertes de chaleur ou de froid avant le calorifugeage, etc.
+                    En général, le calorifugeage permet de réduire de manière significative les pertes de chaleur ou de froid par les tuyaux et canalisations, et donc de faire des économies sur la consommation d'énergie. <br>
+                    Selon l'Agence de l'environnement et de la maîtrise de l'énergie (ADEME), le calorifugeage peut permettre de réaliser jusqu'à 25% d'économies sur la facture de chauffage ou de climatisation d'un bâtiment.
+                </p>
+            </article>
+            <article class="article">
+                <h3 class="article__title">Demandez votre devis</h3>
+                <p class="article__p">
+                    Contactez nous pour obtenir le financement total de vos travaux de calorifugeage ! <br>
+                    <em>Référence nationale</em>, nous nous occupons de tout, de l'obtention des financements à la réalisation des travaux ! 
+                </p>
             </article>
         </div>
     </main>
+    <footer class="footer">
+        <div class="footer__logos-container">
+            <img src="logos/cofrac-logo.jpg" alt="Partenaire Cofrac" class="footer-logos">
+            <img src="logos/logo_ceee.jpg" alt="Certifiés CEE" class="footer-logos footer-logos--large">
+            <img src="logos/logo_qualibat-RGE.webp" alt="Partenaire RGE-Qualibat" class="footer-logos">
+            <img src="logos/saint-gobain-isover.jpg" alt="Partenaire ISOVER" class="footer-logos footer-logos--large">
+        </div>
+        <div class="footer__second-part">
+            <div class="footer__second-part__logo">
+                <img src="logos/logosvgcompressed.svg" alt="logo-Calorifugeage-France" class="logo-entreprise-footer">
+            </div>   
+            <div class="footer__navigation"> 
+                <h4 class="footer__navigation-title">Navigation</h4>
+                <ul class="footer__navigation-list">
+                    <a href="">
+                        <li>Accueil</li>
+                    </a>
+                    <a href="">
+                        <li>Le calorifugeage</li>
+                    </a>
+                    <a href="">
+                        <li>Les subventions</li>
+                    </a>
+                    <a href="">
+                        <li>Blog</li>
+                    </a>
+                    <a href="">
+                        <li>Mentions légales</li>
+                    </a>
+                    <a href="" class="contactfooter">
+                        <i class="fa-solid fa-phone phoneicon"></i>
+                        <li>Contact</li>
+                    </a>
+                </ul>
+            </div>   
+        </div>
+
+    </footer>
+    <script src="script.js">
+
+    </script>
 </body>
 </html>

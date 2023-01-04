@@ -1,0 +1,80 @@
+header{
+    display: flex;
+    width: 100%;
+    p{
+        img{
+            width: 200px;
+            height: 140px;
+        }
+    }
+    nav{
+        background-color: $primary-color;
+        width: 100%;
+        padding-right: 2rem;
+
+        ul{
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            align-items: center;
+            list-style-type: none;
+            width: 100%;
+            height: 3.5rem;
+            background-color: $primary-color;
+            a{
+                height: 100%;
+                display: flex;
+                justify-content: space-around;
+                align-items: baseline;
+                padding: 0 1rem;
+                background-color: $secondary-color;
+                font-weight: bold;
+                font-size: 1.1rem;
+                border-radius: 7px;
+                padding-top: 1rem;
+                color: $primary-color;
+                box-shadow: 3px 3px 5px -1px $secondary-color;
+
+                &:hover{
+                    background-color: lighten($secondary-color, 5%);
+                    transition: margin-top 2s ease-in-out;
+                    margin-top: 3px;
+                    > i{
+                        transform: rotate(1turn) scale(1.6);
+                        transition: transform 800ms 150ms ease-out;
+                    }
+                    > li{
+                        transform: scale(1.1);
+                        transition: all 500ms;
+                        color: lighten($primary-color, 10%);
+                    }
+                }
+                i{
+                    margin-right: 0.8rem;
+                }
+                
+            }
+            .contact-menu-item{
+                background-color: rgb(204, 71, 19);                
+                font-size: 1.4rem;
+                font-weight: bolder;
+                &:hover{
+                    background-color: darken(rgb(249, 20, 20), 15%);
+                    color: lighten($primary-color, 20%);
+                    transition: all 800ms 100ms ease-out;
+                    &:hover > li{
+                        color: lighten($primary-color, 35%);
+                    }
+                }
+
+            } 
+        }
+        
+    }
+}
+
+
+
+
+
+
