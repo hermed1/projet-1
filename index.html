@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="sass/main.css">
     <title>Calorifugeage-France</title>
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Petrona:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/03e4bd3b07.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -18,11 +20,11 @@
         </p>
         <nav>
             <ul>
-              <a href="#"> <i class="fa-solid fa-house fa-xs"> </i> <li>Accueil</li>  </a>
-              <a href="#"> <i class="fa-regular fa-lightbulb fa-xs"> </i> <li> Le <strong>calorifugeage</strong></li> </a>
-              <a href="#"> <i class="fa-solid fa-piggy-bank fa-xs"> </i> <li>Les subventions</li> </a>
-              <a href="#"> <i class="fa-solid fa-book fa-xs"> </i> <li>Blog</li> </a>
-              <a href="#" class="contact-menu-item"> <i class="fa-regular fa-envelope fa-xs"> </i> <li>Contact</li> </a>
+              <a href="#"> <i class="fa-solid fa-house fa-sm"> </i> <li>Accueil</li>  </a>
+              <a href="#"> <i class="fa-regular fa-lightbulb fa-sm"> </i> <li> Le <strong>calorifugeage</strong></li> </a>
+              <a href="#"> <i class="fa-solid fa-piggy-bank fa-sm"> </i> <li>Les subventions</li> </a>
+              <a href="#"> <i class="fa-solid fa-book fa-sm"> </i> <li>Blog</li> </a>
+              <a href="#" class="contact-menu-item"> <i class="fa-regular fa-envelope fa-sm"> </i> <li>Contact</li> </a>
             </ul>
         </nav>
     </header>
@@ -49,6 +51,7 @@
                     Le but du calorifugeage est de protéger les canalisations contre la déperdition de chaleur et de maintenir une température constante à l'intérieur de celles-ci, afin de réduire les coûts de chauffage et de climatisation et de rendre l'installation plus efficace énergétiquement. <br>
                     Le calorifugeage consiste à envelopper les tuyaux ou les équipements de chauffage ou de climatisation dans une couche d'isolant thermique, qui peut être en laine de verre, en laine de roche, en mousse de polyuréthane ou en tout autre matériau isolant. <br> L'isolant est généralement fixé en place à l'aide de ruban adhésif ou de gaine de calorifugeage.
                     Le calorifugeage est souvent utilisé dans les maisons, les immeubles, les usines et les centres commerciaux pour améliorer l'efficacité énergétique des installations de chauffage et de climatisation. C'est une technique simple qui peut entraîner de significatives économies d'énergie.</p>
+                    <button class="article__btn">Voir plus</button>
             </article>
             <article class="article">
                 <h3 class="article__title">Quelles sont les subventions ?</h3>
@@ -71,10 +74,33 @@
                     <em>Référence nationale</em>, nous nous occupons de tout, de l'obtention des financements à la réalisation des travaux ! 
                 </p>
             </article>
+            <div class="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="logos/cofrac-logo.jpg" alt="Image 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="logos/logo_ceee.jpg" alt="Image 2">
+                    </div>
+                    <div class="carousel-item">
+                     <img src="logos/logo_qualibat-RGE.webp" alt="Image 3">
+                    </div>
+                </div>
+              </div>
+              
+            <article class="article">
+                <h3 class="article__title">Actualités</h3>
+                <p class="article__p iframe__container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/vwcrtToEw7A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+
+                    </iframe>
+                </p>
+            </article>
         </div>
     </main>
     <footer class="footer">
         <div class="footer__logos-container">
+            <h4 class="footer__title">Nos certifications:</h4>
             <img src="logos/cofrac-logo.jpg" alt="Partenaire Cofrac" class="footer-logos">
             <img src="logos/logo_ceee.jpg" alt="Certifiés CEE" class="footer-logos footer-logos--large">
             <img src="logos/logo_qualibat-RGE.webp" alt="Partenaire RGE-Qualibat" class="footer-logos">
@@ -109,7 +135,6 @@
                 </ul>
             </div>   
         </div>
-
     </footer>
     <script src="script.js">
 

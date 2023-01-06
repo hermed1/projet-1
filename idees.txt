@@ -1,0 +1,10 @@
+faire grossir image de fond
+fonts:
+raleway 
+Libre Franklin
+Petrona
+Proxima Nova Rg,Helvetica
+Poppins
+
+
+logo avec traits

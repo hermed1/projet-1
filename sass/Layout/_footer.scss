@@ -11,6 +11,10 @@
         align-items: center;
         background-color: lighten($secondary-color,20%);
     }
+    &__title{
+        font-size: $font-size-smaller-title;
+        color: $primary-color;
+    }
     &-logos{
         height: 150px;
         width: 150px;
@@ -61,6 +65,9 @@
             display: flex;
             justify-content: space-around;
             align-items: baseline;
+            a{
+                color: rgb(174, 206, 216);
+            }    
             li:hover{
                 color: $secondary-color;
                 font-weight: bold;

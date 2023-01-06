@@ -1,7 +1,9 @@
+
 $primary-color: rgba(1,56,114,255);
 $secondary-color:rgba(232,79,19,255); 
 $tertiary-color: #087CA7;
-$background-text: #ffeadf;
+$background-text: #b2c2ee;
+$background-footer: lighten($secondary-color,20%);
 
 $font-size-title: 2rem;
 $font-size-smaller-title: 1.5rem;
@@ -12,8 +14,7 @@ $font-size-regular: 1rem;
     text-align: center;
     border-radius: 20px;
     background-color: $tertiary-color;
-    border: solid 1px $secondary-color;
-    font-size: $font-size-title*0.7;
+    font-size: $font-size-title*0.6;
     font-weight: bold;  
     display: flex;
     justify-content: center;
