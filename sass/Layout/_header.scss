@@ -1,0 +1,81 @@
+header{
+    display: flex;
+    width: 100%;
+    p{
+        img{
+            width: 200px;
+            height: 140px;
+        }
+    }
+    nav{
+        background-color: $background-text;
+        width: 90%;
+
+        ul{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            align-items: center;
+            list-style-type: none;
+            width: 100%;
+            height: 3.5rem;
+            background-color: $background-text;
+            padding-right: 2rem;
+            a{
+                height: 100%;
+                display: flex;
+                align-items: center;
+                background-color: $background-footer;
+                font-weight: bold;
+                font-size: 1rem;
+                border-bottom-right-radius: 5px;
+                // border-radius: 7px;
+                // padding-top: 1rem;
+                padding-left: 0.7rem;
+                padding-right: 0.7rem;
+                color: $primary-color;
+                box-shadow: 3px 3px 2px -1px $background-footer;
+
+                &:hover{
+                    background-color: darken($background-footer, 5%);
+                    transition: margin-top 2s ease-in-out;
+                    margin-top: 3px;
+                    > i{
+                        transform: rotate(1turn) scale(1.4);
+                        transition: transform 800ms 150ms ease-out;
+                    }
+                    > li{
+                        transform: scale(1.1);
+                        transition: all 500ms;
+                        color: lighten($primary-color, 5%);
+                    }
+                }
+                i{
+                    margin-right: 0.8rem;
+                }
+                
+            }
+            .contact-menu-item{
+                background-color: darken($background-footer, 5%);                
+                font-size: 1.2rem;
+                font-weight: bolder;
+                &:hover{
+                    background-color: darken($background-footer, 20%);
+                    color: lighten($primary-color, 15%);
+                    transition: all 800ms 100ms ease-out;
+                    &:hover > li{
+                        color: lighten($primary-color,15%);
+                    }
+                }
+
+            } 
+        }
+        
+    }
+}
+
+
+
+
+
+
