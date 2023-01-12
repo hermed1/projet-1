@@ -1,19 +1,20 @@
 
-$primary-color: rgba(1,56,114,255);
-$secondary-color:rgba(232,79,19,255); 
-$tertiary-color: #087CA7;
-$background-text: #b2c2ee;
-$background-footer: lighten($secondary-color,20%);
+$primary-color: #00357A;
+$secondary-color: #4583DE;
+$tertiary-color: #9cbded;
+$background-text: #ecf3f9;
+$background-text: #eaf4fc;
+$orange-ish: rgb(223, 83, 83);
 
-$font-size-title: 2rem;
-$font-size-smaller-title: 1.5rem;
+$font-size-title: 1.5rem;
+$font-size-smaller-title: 1.2rem;
 $font-size-paragraph: 1.2rem;
 $font-size-regular: 1rem;
 @mixin btn{
     padding: 0.8rem 1.5rem;
     text-align: center;
     border-radius: 20px;
-    background-color: $tertiary-color;
+    background-color: $secondary-color;
     font-size: $font-size-title*0.6;
     font-weight: bold;  
     display: flex;
