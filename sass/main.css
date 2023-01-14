@@ -676,10 +676,10 @@ body {
   background-color: #eaf4fc;
 }
 
-.main {
+.main_def_page {
   padding: 0 100px;
 }
-.main__h1 {
+.main_def_page__h1 {
   color: #00357A;
   background-color: #4583DE;
   padding: 10px 15px;
@@ -687,7 +687,7 @@ body {
   margin: 50 0px;
   font-size: 20px;
 }
-.main__h1:hover {
+.main_def_page__h1:hover {
   background-color: #eaf4fc;
   transition: all 300ms ease;
 }
