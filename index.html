@@ -16,7 +16,7 @@
 <body>
     <header>
         <p>
-           <a href="index.html"> <img src="logos/logov2_slogan_large.png" alt="Calorifugeage-France" title="Logo de l'organisation Calorifugeage-France"> </a>
+           <a href="index.html"> <img class="logo" src="logos/logov3.png" alt="Calorifugeage-France" title="Logo de l'organisation Calorifugeage-France"> </a>
         </p>
         <nav id="nav">
             <div class="burger">
@@ -25,15 +25,15 @@
             </div>
             <ul id="navLinks">
               <a href="#"> <i class="fa-solid fa-house fa-sm"> </i> <li>Accueil</li>  </a>
-              <a href="#"> <i class="fa-regular fa-lightbulb fa-sm"> </i> <li> Le <strong>calorifugeage</strong></li> </a>
-              <a href="#"> <i class="fa-solid fa-piggy-bank fa-sm"> </i> <li>Les subventions</li> </a>
+              <a href="Le_calorifugeage.html"> <i class="fa-regular fa-lightbulb fa-sm"> </i> <li> Le <strong>calorifugeage</strong></li> </a>
+              <a href="Les_subventions.html"> <i class="fa-solid fa-piggy-bank fa-sm"> </i> <li>Les subventions</li> </a>
               <a href="#"> <i class="fa-solid fa-book fa-sm"> </i> <li>Blog</li> </a>
               <a href="#" class="contact-menu-item"> <i class="fa-regular fa-envelope fa-sm"> </i> <li>Contact</li> </a>
             </ul>
            
         </nav>
     </header>
-    <section>
+    <section class="carousel-images">
         <div class="logo-H1-container">
             <img class="logo-H1-container__logo logo-H1-container__cofraclogo" src="logos/cofrac-logo.jpg" alt="Partenaire Cofrac" title="Cofrac">
             <h1 class="logo-H1-container__h1">Demandez votre <strong>subvention calorifugeage</strong> !</h1>
@@ -60,9 +60,16 @@
                 <button class="article__btn">Voir plus</button>
             </article>
             <article class="article">
+                <h3 class="article__title">Qui est concerné ?</h3>
+                <p class="article__p--img"> 
+                    <img src="images/secteurs.jpg" alt="secteurs d'activité calorifugeage" class="article__p--img">
+                </p>
+            </article>
+            <article class="article">
                 <h3 class="article__title">Quelles sont les subventions ?</h3>
                 <p class="article__p">Il existe plusieurs subventions disponibles pour les travaux de calorifugeage. Elles peuvent <em>financer intégralement</em> votre projet. <br> 
-                    <span class="article__p--hidden"> Ces subventions sont généralement proposées par les gouvernements et les organismes publics, et peuvent être destinées aux particuliers, aux entreprises ou aux collectivités locales.       
+                    <span class="article__p--hidden"> Ces subventions sont généralement proposées par les gouvernements et les organismes publics, et peuvent être destinées aux particuliers, aux entreprises ou aux collectivités locales.  
+                                                 <br> <strong> Calorifugeage-France </strong> s'occupe pour vous de l'obtention de ces subventions.       
                     </span>
                 </p>
                 <button class="article__btn">Voir plus</button>
@@ -70,13 +77,19 @@
             <article class="article">
                 <h3 class="article__title">Quelles économies sur vos factures d'énergie ?</h3>
                 <p class="article__p">Le calorifugeage peut vous permettre de réaliser de significatives économies d'énergie. <br>
-                    Selon l'importance de la déperdition de chaleur de votre installation et la qualité de l'isolant utilisé, vous pouvez espérer une économie de l'ordre de 10 à 25 % sur vos factures.
-                    <span class="article__p--hidden">Il est difficile de donner un chiffre précis sur les économies réalisables grâce au calorifugeage, car cela dépend de nombreux facteurs tels que la qualité de l'isolant utilisé, la taille des tuyaux et canalisations, la température des fluides transportés, le degré de pertes de chaleur ou de froid avant le calorifugeage, etc.
+                    En fonction de l'importance de la déperdition de chaleur de votre installation et la qualité de l'isolant utilisé, vous pouvez espérer une économie de l'ordre de <span class="bold-items"> 10 à 25 % </span> sur vos factures.
+                    <span class="article__p--hidden">
                         En général, le calorifugeage permet de réduire de manière significative les pertes de chaleur ou de froid par les tuyaux et canalisations, et donc de faire des économies sur la consommation d'énergie. <br>
-                        Selon l'Agence de l'environnement et de la maîtrise de l'énergie (ADEME), le calorifugeage peut permettre de réaliser jusqu'à 25% d'économies sur la facture de chauffage ou de climatisation d'un bâtiment.
+                        Selon l'Agence de l'environnement et de la maîtrise de l'énergie (ADEME), le calorifugeage peut permettre de réaliser <span class="bold-items"> jusqu'à 25% d'économies </span> sur la facture de chauffage ou de climatisation d'un bâtiment.
                     </span>
                 </p>
                 <button class="article__btn">Voir plus</button>
+            </article>
+            <article class="article">
+                <h3 class="article__title plaquette__title">Comment ça marche ? </h3>
+                <p>
+                    <img src="images/plaquette.png" alt="Parcours client" class="plaquette">
+                </p>
             </article>
             <article class="article">
                 <h3 class="article__title">Demandez votre devis</h3>
@@ -88,11 +101,21 @@
             </article>
             <article class="article">
                 <h3 class="article__title">Actualités</h3>
-                <p class="article__p iframe__container">
+                <!-- <p class="article__p iframe__container">
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/vwcrtToEw7A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
 
                     </iframe>
-                </p>
+                </p> -->
+                <div class="carousel">
+                    <button class="carousel__button carousel__button--prev">Précédente</button>
+                    <div class="carousel__video-container">
+                      <iframe width="700" height="500" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="carousel__video" src="https://www.youtube.com/embed/vwcrtToEw7A"></iframe>
+                      <iframe width="700" height="500" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="carousel__video video-not-displayed" src="https://www.youtube.com/embed/VFJZeRpb0oI"></iframe>
+                      <iframe width="700" height="500" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="carousel__video video-not-displayed" src="https://www.youtube.com/embed/fWIIAM2Loz0"></iframe>
+                    </div>
+                    <button class="carousel__button carousel__button--next">Suivante</button>
+                </div>
+                  
             </article>
         </div>
     </main>
@@ -110,7 +133,7 @@
         </div>
         <div class="footer__second-part">
             <div class="footer__second-part__logo">
-                <img src="logos/logov2_slogan_large.png" alt="logo-Calorifugeage-France" class="logo-entreprise-footer">
+               <a href="index.html"> <img src="logos/logov3.png" alt="logo-Calorifugeage-France" class="logo-entreprise-footer"> </a>
                 <div class="footer__second-part__logo--contact-items-container">
                     <a href="tel:+33662491241" class="footer__second-part__logo--contact-items"> <i class="fa-solid fa-phone footer__second-part__logo-icons"></i> 06-62-49-12-41 </a>
                     <a href="tel:+33973880700" class="footer__second-part__logo--contact-items"> <i class="fa-solid fa-phone footer__second-part__logo-icons"></i> 09-73-88-07-00 </a>
@@ -120,13 +143,13 @@
             <div class="footer__navigation"> 
                 <h4 class="footer__navigation-title">Navigation</h4>
                 <ul class="footer__navigation-list">
-                    <a href="">
+                    <a href="index.html">
                         <li>Accueil</li>
                     </a>
-                    <a href="">
+                    <a href="Le_calorifugeage.html">
                         <li>Le calorifugeage</li>
                     </a>
-                    <a href="">
+                    <a href="Les_subventions.html">
                         <li>Les subventions</li>
                     </a>
                     <a href="">

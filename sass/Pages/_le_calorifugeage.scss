@@ -1,0 +1,92 @@
+body{
+    background-color: $background-text;
+}
+.main{
+    padding: 0 100px;
+    &__h1{
+        color: $primary-color;
+        background-color: $secondary-color;
+        padding: 10px 15px;
+        border-radius: 5px;
+        margin: 50 0px;
+        font-size: 20px;
+        &:hover{
+            background-color: $background-text;
+            transition: all 300ms ease;
+        }
+    }
+}
+.section_avantages{
+    padding: 0 100px;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+    .section_avantages__title{
+        font-size: 18px;
+        color: $primary-color;
+        background-color: $secondary-color;
+        padding: 10px 15px;
+        border-radius: 5px;
+        width: fit-content;
+        margin: 50px 0;
+        &:hover{
+            background-color: $background-text;
+            transition: all 300ms ease;
+        }
+    }
+    &__intropara{
+        font-size: 16px;
+        align-self: flex-start;
+        margin-bottom: 15px;
+    }
+    .section_avantages__list{
+        list-style-type: decimal;
+        li{
+            margin-bottom: 15px;
+        }
+    }
+}
+.section_economies{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 100px;
+    .section_economies__title{
+        font-size: 18px;
+        color: $primary-color;
+        background-color: $secondary-color;
+        padding: 10px 15px;
+        border-radius: 5px;
+        margin: 50px 0;
+        width: fit-content;
+        &:hover{
+            background-color: $background-text;
+            transition: all 300ms ease;
+        }
+    }
+    .section_economies__p{
+        margin-bottom: 10px;
+        font-size: 16px;
+    }
+}
+.section_importance{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 100px;
+    margin-bottom: 50px;
+    .section_importance__title{
+        font-size: 18px;
+        color: $primary-color;
+        background-color: $secondary-color;
+        padding: 10px 15px;
+        border-radius: 5px;
+        margin: 50px 0;
+        width: fit-content;
+    }
+    .section_importance__p{
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+}

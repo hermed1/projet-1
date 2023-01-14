@@ -21,7 +21,7 @@ header{
         }
         @media screen and (max-width: 768px) {
            min-width: unset; 
-
+           width: 100%; 
         }
         ul{
             display: flex;
@@ -69,7 +69,9 @@ header{
                         // transition: transform 800ms 150ms ease-out;
                         animation: iconAnimation ease-out 400ms 150ms;
                         transform: scale(1.25);
-                        transition: transform 900ms ease-in;
+                        color: darken($background-text, 5%);
+                        transition: transform 700ms ease-in;
+                        transition: color 300ms 200ms ease-in;
                     }
                     > li{
                         transform: scale(1.05);
@@ -157,10 +159,16 @@ header{
 }
 .displayNav{
     display: block;
-    transform: translateX(-150px);
+    transform: translateX(-50px);
 
 }
+.disappearLogo{
+    display: none;
+}
 
+strong{
+    font-weight: bold;
+}
 
 // keyframes menu icons
 
