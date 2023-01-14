@@ -73,12 +73,12 @@ prevButton.addEventListener('click', function() {
 const carousel2 = document.querySelector('.carousel-images');
 
 const images = [
-  '/images/pipes2.jpg',
-  '/images/pipes3.jpg',
-  '/images/pipes4.jpg',
-  '/images/pipes5.jpg',
-  '/images/pipes6.jpg',
-  '/images/pipes_background.jpg'
+  '../images/pipes2.jpg',
+  '../images/pipes3.jpg',
+  '../images/pipes4.jpg',
+  '../images/pipes5.jpg',
+  '../images/pipes6.jpg',
+  '../images/pipes_background.jpg'
 ];
 
 let currentImage = 0;
@@ -88,4 +88,3 @@ setInterval(function() {
   carousel2.style.backgroundImage = 'url(' + images[currentImage] + ')';
   currentImage = (currentImage + 1) % images.length;
 }, 4000);
-

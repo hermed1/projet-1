@@ -602,10 +602,10 @@ iframe {
 .carousel-images {
   max-width: 100%;
   height: 100vh;
-  background-image: url(/images/pipes3.jpg);
+  background-image: url(../images/pipes3.jpg);
   background-size: cover;
   background-position: center;
-  transition: background-image 1s ease;
+  transition: background-image 1s ease-in;
   background-clip: padding-box;
 }
 
